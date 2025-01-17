@@ -1,0 +1,35 @@
+{
+    "name": "gtsciences/gt-media",
+    "description": "Media content types and handling, including GT MediaSpace oembed",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Michael Sheldon",
+            "homepage": "https://cos.gatech.edu/",
+            "role": "Maintainer"
+        }
+    ],
+    "_comment": [
+        "AVIF support slowly incoming https://www.drupal.org/project/drupal/issues/3202016",
+        "MLE can be removed once core issue is resolved: https://www.drupal.org/project/drupal/issues/2985168",
+        "SAM can be removed once core issue is resolved: https://www.drupal.org/project/drupal/issues/1156338",
+        "check out lite_youtube_embed for speed ups"
+    ],
+    "require": {
+        "drupal/core": ">=10.4",
+
+        "drupal/file_rename": "^1.0",
+        "drupal/focal_point": "^2.1",
+        "drupal/imagemagick": "^4.0",
+        "drupal/media": "*",
+        "drupal/media_library": "*",
+        "drupal/media_library_edit": "^3.0",
+        "drupal/sam": "^1.2",
+        "drupal/svg_image": "^3.2",
+
+
+        "drupal/oembed_lazyload": "^2.0",
+        "drupal/oembed_providers": "^2.2"
+    }
+}
