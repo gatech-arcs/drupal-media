@@ -11,8 +11,6 @@
         }
     ],
     "_comment": [
-        "AVIF support landed in 11.2 core image recipes - https://www.drupal.org/project/drupal/issues/3202016",
-
         "MLE can be removed once core issue is resolved - https://www.drupal.org/project/drupal/issues/2985168",
         "SAM can be removed once core issue is resolved - https://www.drupal.org/project/drupal/issues/1156338",
 
@@ -29,7 +27,6 @@
         "drupal/focal_point": "^2.1",
         "drupal/imagemagick": "^4.0",
         "drupal/image_style_quality": "^1.7",
-        "drupal/media": "*",
         "drupal/media_library": "*",
         "drupal/media_library_edit": "^3.0",
         "drupal/sam": "^1.2",
