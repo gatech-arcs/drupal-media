@@ -11,12 +11,22 @@ recipes:
   - gtsciences/gt_mediaspace
 
 install:
+  - blazy
+  - crop
   - easy_responsive_images
-  - media_entity_download
+  - file_delete
+  - file_rename
+  - focal_point
+  - imagick
+  - media
+  - media_library
+  - media_entity
   - media_file_delete
   - media_library_edit
   - oembed_lazyload
   - oembed_providers
+  - simple_media_bulk_upload
+  - svg_image
 
 config:
   # If the config we're importing already exists, skip it.
